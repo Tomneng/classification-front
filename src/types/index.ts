@@ -11,6 +11,7 @@ export interface TransactionDto {
   description: string;
   amount: number;
   transactionType: string;
+  balanceAfter: number;
   companyId: string;
   companyName: string | null;
   categoryId: string | null;
